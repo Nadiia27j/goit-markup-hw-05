@@ -23,7 +23,10 @@ h1,h2,h3,h4,h5,h6,p {
   margin-bottom: 0px;
 }
 
-
+img {
+  display: block;
+  max-width: 100%;
+}
 
  
 .container {
@@ -122,6 +125,8 @@ ul {
 
 .carent {
   text-decoration: none;
+  border-bottom: 4px solid rgba(33, 150, 243, 1);
+  border-radius: 2px;
 }
 
 .carent-heading {
@@ -356,6 +361,12 @@ ul {
 }
 
 
+/* позиціонування */
+
+
+.image {
+  height: auto;
+}
 
 .text-photo {
   position: relative;
